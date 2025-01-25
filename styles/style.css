@@ -1,1 +1,116 @@
-/* место для вашего кода */
+.header {
+  box-sizing: border-box;
+  padding: 92px 50px 96px;
+  max-width: 1100px;
+  width: 100%;
+  min-height: 293px;
+  margin: auto;
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 1fr 195px 1fr;
+  align-items: center;
+}
+.header__menu {
+}
+.header__links-list {
+  display: flex;
+  align-items: center;
+  list-style: circle;
+  gap: 30px;
+  padding-bottom: 6px;
+}
+.header__menu-item {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* .header__menu-link {
+	text-decoration: underline;
+} */
+
+.header__menu-item_active {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo-black {
+  display: block;
+  /*padding-top: 4px;*/
+}
+
+.header__address {
+  max-width: 240px;
+  justify-self: right;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px /* 135% */;
+  padding-bottom: 6px;
+}
+
+
+.cover {
+  max-width: 1100px;
+  width: 100%;
+  height: 757px;
+  background-size: cover;
+  background-color: #000;
+  background-image: url(../images/cover.jpg);
+  padding: 0 24px;
+  margin-bottom: 180px;
+}
+.accent-span {
+}
+.text-center {
+}
+.text-right {
+}
+.description {
+}
+.description__sentence {
+}
+.description__button {
+}
+.lots {
+  max-width: 1052px;
+  width: 100%;
+  height: 723px;
+  margin: 0 24px 120px;
+}
+.lots__list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.lots__list-item {
+}
+.lots__list-item__film {
+}
+.lots__list-item__title {
+}
+.lots__list-item__book {
+}
+.lots__list-item__picture {
+}
+.about {
+  max-width: 1052px;
+  width: 100%;
+  height: 595px;
+  padding: 0;
+  margin: 0 24px 180px;
+}
+.footer {
+  max-width: 1100px;
+  width: 100%;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+}
+
+.content-section_background-white {
+  background-color: #fff;
+}
