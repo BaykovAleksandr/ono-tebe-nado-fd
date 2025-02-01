@@ -22,7 +22,7 @@
   font-weight: 400;
 }
 
-.header__links-list:first-child {
+.header__links-list > :first-child {
   list-style: none;
 }
 
@@ -38,18 +38,17 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.35;
+  color: #000;
+  max-width: 240px;
 }
 
 .right-align-address {
-  max-width: 240px;
   justify-self: right;
-  color: #000;
-  line-height: 24.3px;
   padding-bottom: 6px;
 }
 
 .left-align-address {
-  line-height: 1.35;
   margin-left: 50px;
 }
 
@@ -282,13 +281,6 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
   padding-bottom: 82px;
-}
-
-.left-align-address {
-  font-size: 18px;
-  line-height: 1.35;
-  font-style: normal;
-  margin-left: 50px;
 }
 
 .footer__menu {
